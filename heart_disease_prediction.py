@@ -18,7 +18,7 @@ from sklearn.metrics import accuracy_score
 """Data Preprocessing"""
 
 #loading the data in to pandas dataframe
-heart_data=pd.read_csv('/content/heart.csv')
+heart_data=pd.read_csv('heart.csv')
 
 #printing the first five rows of data
 heart_data.head()
